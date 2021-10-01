@@ -14,3 +14,29 @@ app.listen(port, (error, result) => {
     }
     console.log(`server is listening on ${port}`)
 })
+
+const wardCodes = {
+    generalWard: "W-GW",
+    ICCU: "W-ICCU",
+
+}
+const hospitalDetails = {
+    hospitalName: "global hospital",
+ facilities:{ 
+        
+covid : [
+    {
+        wardCode:wardCodes.generalWard,
+        wardName: "general ward",
+        numbersOfBed: 163,
+        bedCharge: 80,
+        unitOfbedCharge: "rs/day",
+        dietCharge: 40,
+        unitOfdietCharge: "rs/day",
+        advance: "No charges are levied for outpatient",
+        numsOfdoc: 14,
+        numOfnurses: 25,
+    },
+]
+ }
+}
