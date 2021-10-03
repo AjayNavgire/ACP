@@ -14,5 +14,5 @@ app.get('/', (req, res) => {
 
 app.listen(port, () => {
   
-console.log(`success! Your bmc working structure showed successfully ${port}`)
+console.log(`success! Your corporate working structure showed successfully ${port}`)
 })
